@@ -1,0 +1,45 @@
+{
+  "name": "grunt-testflight",
+  "description": "Upload the build to TestFlight",
+  "version": "0.1.0",
+  "homepage": "https://github.com/shiwano/grunt-testflight",
+  "author": {
+    "name": "Shogo Iwano",
+    "email": "shiwano@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shiwano/grunt-testflight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shiwano/grunt-testflight/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shiwano/grunt-testflight/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "form-data": "~0.1.2",
+    "nock": "~0.22.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin",
+    "testflight"
+  ]
+}
