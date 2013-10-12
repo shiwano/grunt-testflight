@@ -32,7 +32,6 @@
     "grunt-contrib-nodeunit": "~0.2.1",
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.1",
-    "form-data": "~0.1.2",
     "nock": "~0.22.1"
   },
   "peerDependencies": {
@@ -41,5 +40,8 @@
   "keywords": [
     "gruntplugin",
     "testflight"
-  ]
+  ],
+  "dependencies": {
+    "form-data": "~0.1.2"
+  }
 }
