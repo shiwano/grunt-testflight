@@ -31,7 +31,7 @@ In your project's Gruntfile, add a section named `testflight` to the data object
 ```js
 grunt.initConfig({
   testflight: {
-    ipa: {
+    iOS: {
       options: {
         apiToken: 'Enter your api token',
         teamToken: 'Enter your team token',
