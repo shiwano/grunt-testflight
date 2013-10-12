@@ -103,7 +103,7 @@ grunt.initConfig({
     options: {
       apiToken: '<%= localConfig.testflight.apiToken %>',
       teamToken: '<%= localConfig.testflight.teamToken %>',
-      notes: function(done) { # you can use async function.
+      notes: function(done) { // you can use async function.
         gitRev.long(function(hash) {
           done("commit " + hash);
         });
