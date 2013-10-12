@@ -1,6 +1,6 @@
 # grunt-testflight [![Build Status](https://secure.travis-ci.org/shiwano/grunt-testflight.png?branch=master)](http://travis-ci.org/shiwano/grunt-testflight)
 
-Upload the build to TestFlight
+> Upload the build to TestFlight
 
 ## Getting Started
 _If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide._
@@ -97,6 +97,8 @@ replace binary for an existing build if one is found with the same name/bundle v
 var gitRev = require('git-rev');
 
 grunt.initConfig({
+  localConfig: grunt.file.readYAML('localConfig.yml');
+
   testflight: {
     options: {
       apiToken: '<%= localConfig.testflight.apiToken %>',
@@ -114,7 +116,7 @@ grunt.initConfig({
       options: {
         file: '<%= localConfig.builds.ipa %>'
       }
-    }
+    },
 
     android: {
       options: {
