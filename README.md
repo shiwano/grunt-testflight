@@ -1,6 +1,6 @@
 # grunt-testflight [![Build Status](https://secure.travis-ci.org/shiwano/grunt-testflight.png?branch=master)](http://travis-ci.org/shiwano/grunt-testflight)
 
-> Upload the build to TestFlight
+> Uploads the build to TestFlight
 
 ## Getting Started
 _If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide._
