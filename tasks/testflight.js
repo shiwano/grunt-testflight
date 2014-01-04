@@ -67,6 +67,10 @@ module.exports = function(grunt) {
         grunt.log.error(err);
         return done(false);
       }
+      if (res.statusCode !== 200) {
+        grunt.log.error('Uploading failed with status ' + res.statusCode);
+        return done(false);
+      }
       grunt.log.ok('Uploaded ' + options.file.cyan + ' to TestFlight!');
       done();
     });
