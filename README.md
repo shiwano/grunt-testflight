@@ -131,6 +131,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].
 
 ## Release History
+ * 2014-01-05   v0.1.1   Handle non 200 responses from testflight.
  * 2013-10-12   v0.1.0   First release.
 
 ## License
