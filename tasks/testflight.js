@@ -25,7 +25,8 @@ module.exports = function(grunt) {
       dsym: null,
       distributionLists: [],
       notify: false,
-      replace: false
+      replace: false,
+      onDone: function (responseJson) {}
     });
 
     if (!_.isString(options.apiToken) || !_.isString(options.teamToken) ||
@@ -73,6 +74,11 @@ module.exports = function(grunt) {
       }
       grunt.log.ok('Uploaded ' + options.file.cyan + ' to TestFlight!');
       done();
+      res.on("data", function (buffer) {
+        var jsonString = String.fromCharCode.apply(null, new Uint16Array(buffer))
+        var jsonObject = JSON.parse(jsonString)
+        options.onDone(jsonObject)
+      });
     });
   };
 };

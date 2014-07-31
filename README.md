@@ -89,6 +89,12 @@ notify permitted teammates to install the build.
 Type: `Boolean`
 Default: `false`
 
+#### options.onDone
+Type: `Function`
+Default: `function (responseJson) {}`
+
+could be used to get JSON Result testflight sends back to each API call (https://testflightapp.com/api/doc/)
+
 replace binary for an existing build if one is found with the same name/bundle version.
 
 ### Usage Examples
@@ -131,6 +137,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].
 
 ## Release History
+ * 2014-07-31   v0.1.2   added testflight JSON result object handling.
  * 2014-01-05   v0.1.1   Handle non 200 responses from testflight.
  * 2013-10-12   v0.1.0   First release.
 
