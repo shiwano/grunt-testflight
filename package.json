@@ -1,23 +1,23 @@
 {
-  "name": "grunt-testflight",
+  "name": "grunt-testflight-jsonresult",
   "description": "Uploads the build to TestFlight",
-  "version": "0.1.1",
-  "homepage": "https://github.com/shiwano/grunt-testflight",
+  "version": "0.1.3",
+  "homepage": "https://github.com/memoConnect/grunt-testflight-JSONResult",
   "author": {
-    "name": "Shogo Iwano",
-    "email": "shiwano@gmail.com"
+    "name": "Michael Merz",
+    "email": "dermicha@cameo.io"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/shiwano/grunt-testflight.git"
+    "url": "git@github.com:memoConnect/grunt-testflight-JSONResult.git"
   },
   "bugs": {
-    "url": "https://github.com/shiwano/grunt-testflight/issues"
+    "url": "https://github.com/memoConnect/grunt-testflight-JSONResult/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/shiwano/grunt-testflight/blob/master/LICENSE-MIT"
+      "url": "https://github.com/memoConnect/grunt-testflight-JSONResult/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
