@@ -49,6 +49,11 @@ module.exports = function(grunt) {
   });
 
   var uploadBuildToTestFlight = function(options, done) {
+    if (!grunt.file.exists(options.file)) {
+	          grunt.log.writeln('app package missing: ', options.file);
+	          return done()
+	}
+
     var form = new FormData();
     form.append('api_token', options.apiToken);
     form.append('team_token', options.teamToken);
