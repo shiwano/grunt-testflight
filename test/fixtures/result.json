@@ -1,0 +1,12 @@
+{
+  "bundle_version": "0.91",
+  "install_url": "http://testflightapp.com/install/0199f7eccd5e4966d0a3cbe7fcd00773-Mjc/",
+  "config_url": "http://testflightapp.com/dashboard/builds/complete/27/",
+  "created_at": "2010-11-18 14:51:55",
+  "device_family": "Universal",
+  "notify": false,
+  "team": "Air Support",
+  "minimum_os_version": "3.0",
+  "release_notes": "This build was uploaded via the upload api",
+  "binary_size": 6280557
+}

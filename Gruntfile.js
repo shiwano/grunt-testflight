@@ -28,6 +28,9 @@ module.exports = function(grunt) {
           notify: true,
           replace: true,
           distributionLists: ['Enter your distribution list name'],
+          onDone: function(result) {
+            console.log(result);
+          },
           notes: function(done) {
             setTimeout(function() {
               done('notes async');

@@ -73,11 +73,11 @@ module.exports = function(grunt) {
         return done(false);
       }
       grunt.log.ok('Uploaded ' + options.file.cyan + ' to TestFlight!');
-      done();
       res.on("data", function (buffer) {
-        var jsonString = String.fromCharCode.apply(null, new Uint16Array(buffer))
-        var jsonObject = JSON.parse(jsonString)
-        options.onDone(jsonObject)
+        var jsonString = String.fromCharCode.apply(null, new Uint16Array(buffer));
+        var jsonObject = JSON.parse(jsonString);
+        options.onDone(jsonObject);
+        done();
       });
     });
   };
