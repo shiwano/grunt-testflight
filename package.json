@@ -1,7 +1,7 @@
 {
   "name": "grunt-testflight",
   "description": "Uploads the build to TestFlight",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/shiwano/grunt-testflight",
   "author": {
     "name": "Shogo Iwano",

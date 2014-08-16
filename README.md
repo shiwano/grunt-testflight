@@ -137,7 +137,8 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].
 
 ## Release History
- * 2014-07-31   v0.1.2   added testflight JSON result object handling.
+ * 2014-08-16   v0.1.3   Print TestFlight API response on error.
+ * 2014-08-16   v0.1.2   Add TestFlight JSON result object handling.
  * 2014-01-05   v0.1.1   Handle non 200 responses from testflight.
  * 2013-10-12   v0.1.0   First release.
 
